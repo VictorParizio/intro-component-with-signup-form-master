@@ -1,0 +1,127 @@
+body {
+    background: url(../images/bg-intro-desktop.png), var(--body);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+.component .info {
+    width: 50%;
+}
+
+.component .info .title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 46px;
+    max-width: 450px;
+    margin-bottom: 22px;
+}
+
+.component .info .description {
+    font-size: 1.4rem;
+    line-height: 22px;
+    max-width: 460px;
+}
+
+.component .records {
+    width: 50%;
+}
+
+.component .form .submit,
+.component .records .banner {
+    border: none;
+    border-radius: 8px;
+    padding: 14px 18px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.component .records .banner {
+    background-color: var(--banner);
+    box-shadow: 0 8px rgb(62, 60, 73, 0.2);
+    margin-bottom: 14px;
+}
+
+.component .form .submit {
+    cursor: pointer;
+    background-color: var(--submit);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: solid 3px hsl(154, 61%, 44%);
+    margin-bottom: 10px;
+}
+
+.component .form .submit:hover {
+    opacity: 0.6;
+}
+
+.component .records .banner span {
+    font-weight: 400;
+}
+
+.component .form {
+    background-color: var(--text);
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 8px rgb(62, 60, 73, 0.2);
+}
+
+.component .form .input {
+    height: 46px;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px var(--inativo);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--ativo);
+    padding: 0 24px;
+    margin-bottom: 28px;
+}
+
+.component .form .input:focus {
+    outline: 0;
+    color: var(--ativo);
+    border: solid 1px;
+    font-size: 1.4rem;
+}
+
+.component .form p {
+    font-size: 0.8rem;
+    color: var(--inativo);
+    text-align: center;
+}
+
+.component .form p .terms {
+    color: var(--body);
+    font-weight: 600;
+}
+
+/* ----------------------- */
+
+.attribution {
+    text-align: center;
+    margin: 10px;
+    color: var(--text);
+}
+
+.attribution a {
+    font-weight: 600;
+    color: var(--banner);
+    transition: 0.2s ease-in-out;
+}
+
+.attribution a:hover {
+    color: var(--submit);
+}

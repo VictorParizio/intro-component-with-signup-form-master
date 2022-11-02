@@ -1,0 +1,8 @@
+:root{
+    --body: hsl(0, 100%, 74%);
+    --submit: hsl(154, 59%, 51%);
+    --banner: hsl(248, 32%, 49%);
+    --ativo: hsl(249, 10%, 26%);
+    --inativo: hsl(246, 25%, 77%);
+    --text: hsl(0, 0%, 100%);
+}

@@ -1,0 +1,13 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 65.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: var(--text);
+}

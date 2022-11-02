@@ -1,0 +1,24 @@
+.component .form li {
+    position: relative;
+}
+
+.component .form .invalido .input {
+    background: url(../images/icon-error.svg) no-repeat 96%;
+    background-size: 2rem;
+    border: solid 1px var(--body);
+    color: var(--body);
+}
+
+.component .form .err {
+    display: none;
+}
+
+.component .form .invalido .err {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    font-size: 0.8rem;
+    color: var(--body);
+    font-style: italic;
+    display: block;
+}
