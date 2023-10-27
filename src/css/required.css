@@ -1,0 +1,19 @@
+.formulario .campo .invalido {
+    border: solid 2px var(--required);
+    margin-bottom: 0;
+}
+
+.formulario .campo span {
+    display: none;
+    font-size: 0.8rem;
+}
+
+.formulario .campo span.obrigatorio {
+    color: var(--required);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.formulario .campo .valido {
+    border: solid 2px var(--valido)
+}
